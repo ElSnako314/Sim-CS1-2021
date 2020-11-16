@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author John Word
+ * @author ElSnako
  */
 public class Sim extends JPanel implements KeyListener, MouseListener {
 
@@ -52,7 +52,7 @@ public class Sim extends JPanel implements KeyListener, MouseListener {
     
     public static void main(String[] args) {
         JFrame j = new JFrame("Blob Sim");
-        Container c = new Sim);
+        Container c = new Sim();
         j.add(c);
         j.pack();
         j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
