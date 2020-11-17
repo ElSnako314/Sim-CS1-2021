@@ -21,6 +21,7 @@ public class Sim extends JPanel implements KeyListener, MouseListener {
     private Timer timer;
     private int frameCount = 0;
     private World world = new World();
+    private Blob blob[];
     
     public Sim() {
         timer = new Timer();
@@ -33,7 +34,7 @@ public class Sim extends JPanel implements KeyListener, MouseListener {
         
         frameCount++;
         
-        this.setBackground(Color.WHITE);		
+        this.setBackground(new Color(58, 82, 205));		
 	
         world.draw(g);
     }
